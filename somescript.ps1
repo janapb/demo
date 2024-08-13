@@ -1,3 +1,4 @@
+date
 $os = Get-Ciminstance Win32_OperatingSystem
 $pctFree = [math]::Round(($os.FreePhysicalMemory/$os.TotalVisibleMemorySize)*100,2)
 #Write-Output $pctFree
@@ -12,3 +13,4 @@ else
 Write-Output "Memory utilisation is Normal - Available Memory: $pctfree%"
 exit 0
 }
+date
