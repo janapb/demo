@@ -13,4 +13,3 @@ else
 Write-Output "Memory utilisation is Normal - Available Memory: $pctfree%"
 exit 0
 }
-date
